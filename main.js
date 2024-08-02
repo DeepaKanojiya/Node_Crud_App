@@ -7,7 +7,7 @@ const app=express();
 const port = process.env.port || 4000;
 
 async function main(){
-    await  mongoose.connect(process.env.db_url_Local)
+    await  mongoose.connect(process.env.db_url_live)
   }
   
   main()
